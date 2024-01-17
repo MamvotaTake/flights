@@ -1,0 +1,36 @@
+@import "functions";
+@import "vars";
+@import "mixins";
+@import "unilities";
+
+:root {
+  --background-color: #F3F7FA;
+  --primary-color: #2196F3;
+  --secondary-color: #909597;
+  --secondary-light-color: #B0BEC5;
+  --white: #fff;
+  --black: #000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  padding: 4rem;
+}

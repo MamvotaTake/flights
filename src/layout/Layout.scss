@@ -1,0 +1,15 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 70rem;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: var(--background-color);
+
+  &--layout {
+    display: flex;
+    height: 100vh;
+    margin-top: 1rem;
+    gap: 2rem;
+  }
+}
