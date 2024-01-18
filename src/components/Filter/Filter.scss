@@ -1,4 +1,17 @@
-.filter{
-  background-color: red;
-  flex : 0 0 20%;
+.Filter{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: .75rem;
+  flex : 0 0 30%;
+  height: 20rem;
+  padding: 1.7rem;
+  gap: 1.4rem;
+
+  &__title{
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
 }
