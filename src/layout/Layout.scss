@@ -6,10 +6,20 @@
   padding: 3rem;
   background-color: var(--background-color);
 
-  &--layout {
+  &__layout {
     display: flex;
     height: 100vh;
     margin-top: 1rem;
     gap: 2rem;
+
+    &-filter{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+
+    }
+
+
   }
 }

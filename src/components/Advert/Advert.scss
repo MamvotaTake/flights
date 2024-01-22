@@ -1,0 +1,46 @@
+.Advert {
+  position: relative;
+  border-radius: .75rem;
+  transition: display .8s ease-in;
+    img {
+      width: 16rem;
+
+    }
+
+    &__text {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.9);
+      border-radius: .75rem;
+      transition: display .8s ease-in;
+
+      p {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--primary-color);
+      }
+
+      button {
+        background-color: var(--primary-color);
+        border: none;
+        padding: 0.5rem;
+        color: var(--white);
+        border-radius: 0.5rem;
+        margin-top: 0.5rem;
+        cursor: pointer;
+      }
+    }
+
+    &:hover &__text  {
+      display: flex;
+
+    }
+
+}

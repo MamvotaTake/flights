@@ -1,6 +1,8 @@
 import './Logo.scss'
 export function Logo() {
     return (
-        <div className='logo'>Logo</div>
+        <div className='Logo'>
+            <img src='../../../public/img.png' alt='logo' className='Logo__image'/>
+        </div>
     );
 }
