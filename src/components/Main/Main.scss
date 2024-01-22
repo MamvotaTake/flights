@@ -1,6 +1,9 @@
 .main{
+  display: flex;
+  flex-direction: column;
   background-color: var(--white);
   flex: 1;
   padding: 1.7rem;
   border-radius: .75rem;
+  gap: 1.4rem;
 }
